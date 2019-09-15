@@ -26,3 +26,8 @@ def sort_array_char_count(list)
     }
 end
 
+def  swap_elements(list, ind1, ind2)
+    new_list = list
+    new_list[ind1], new_list[ind2] = list[ind2], list[ind1]    
+    return new_list
+end 
