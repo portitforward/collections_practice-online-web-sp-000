@@ -31,3 +31,5 @@ def  swap_elements(list)
     new_list[1], new_list[2] = list[2], list[1]    
     return new_list
 end 
+
+def reverse_array
