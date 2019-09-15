@@ -44,6 +44,8 @@ def find_a(list)
     list.select{|a| a.start_with?("a")}
 end
 
-
+def sum_array(list)
+    list.inject(:+)
+end
 
 
