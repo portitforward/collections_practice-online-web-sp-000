@@ -34,6 +34,10 @@ end
 
 def reverse_array(list)
   return list.reverse
+end
+
+def kesha_maker(list)
+    list.map{|a| a.sub(a[2], "$")}
 end  
 
 
