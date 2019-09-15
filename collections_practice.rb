@@ -41,5 +41,8 @@ def kesha_maker(list)
 end
 
 def find_a(list)
+    list.select{|a| a.start_with?("a")}
+end
+
 
 
