@@ -32,4 +32,6 @@ def  swap_elements(list)
     return new_list
 end 
 
-def reverse_array
+def reverse_array(list)
+  return list.reverse
+end  
