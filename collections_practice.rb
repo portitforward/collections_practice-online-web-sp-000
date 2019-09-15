@@ -48,6 +48,10 @@ def sum_array(list)
     list.inject(:+)
 end
 
+def add_s(list)
+    list.map.with_index{|v, i| i != 1 ? v << "s" : v=v }
+end
+
 
 
 
