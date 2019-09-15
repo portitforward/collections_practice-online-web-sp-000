@@ -38,6 +38,8 @@ end
 
 def kesha_maker(list)
     list.map{|a| a.sub(a[2], "$")}
-end  
+end
+
+def find_a(list)
 
 
