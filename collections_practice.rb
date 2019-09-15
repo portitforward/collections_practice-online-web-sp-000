@@ -12,4 +12,7 @@ def sort_array_desc(list)
             -1
         end             
     }
-end 
+end
+
+def sort_array_char_count(list)
+  
